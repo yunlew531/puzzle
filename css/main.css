@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  background: url("../images/bg.jfif") no-repeat center center;
+  background-size: cover;
+}
+
+.main {
+  width: 1200px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: auto;
+}
+
+.main .puzzle,
+.main .puzzle-complete {
+  width: 576px;
+  height: 395px;
+  margin: auto 0;
+}
+
+.main .puzzle .puzzle-list,
+.main .puzzle-complete .puzzle-list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding: 0;
+  background: #ffefd1;
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px 0 10px 10px;
+}
+
+.main .puzzle .puzzle-list .puzzle-card,
+.main .puzzle-complete .puzzle-list .puzzle-card {
+  width: 32%;
+  margin: 0 1% 1px 0;
+}
+
+.main .win-game {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: -100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 100px;
+  color: #fff;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+.main .win-game.open {
+  top: 0%;
+}
