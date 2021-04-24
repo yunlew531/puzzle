@@ -1,38 +1,38 @@
 [
     {
         "index": 3,
-        "url": "../images/4.png"
+        "url": "./images/4.png"
     },
     {
         "index": 8,
-        "url": "../images/9.png"
+        "url": "./images/9.png"
     },
     {
         "index": 0,
-        "url": "../images/1.png"
+        "url": "./images/1.png"
     },
     {
         "index": 6,
-        "url": "../images/7.png"
+        "url": "./images/7.png"
     },
     {
         "index": 5,
-        "url": "../images/6.png"
+        "url": "./images/6.png"
     },
     {
         "index": 2,
-        "url": "../images/3.png"
+        "url": "./images/3.png"
     },
     {
         "index": 1,
-        "url": "../images/2.png"
+        "url": "./images/2.png"
     },
     {
         "index": 7,
-        "url": "../images/8.png"
+        "url": "./images/8.png"
     },
     {
         "index": 4,
-        "url": "../images/5.png"
+        "url": "./images/5.png"
     }
 ]

@@ -33,7 +33,7 @@ const app = {
     })
 
     onMounted(() => {
-      const api = '../json/puzzle.json';
+      const api = './json/puzzle.json';
       axios.get(api)
         .then(res => {
           puzzleOriginArr.imgArr = res.data;
